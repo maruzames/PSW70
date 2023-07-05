@@ -7,6 +7,17 @@
 Criar Ambiente Virtual.
 Instalar Django & Pacotes adicionais.
 
-*  Aula 02 (App Extrato)
+*  Aula 02a (App Extrato)
 **********
 Adicionar o app Extrato 
+
+*  Aula 02b
+**********
+EXportar Extrato
+
+pip install weasyprint
+
+quem usa windows, instalar o arq: 
+'https://github.com/tschoonj/gtk-for-windows-runtime-environment-installer/releases'
+
+

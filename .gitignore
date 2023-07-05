@@ -1,12 +1,20 @@
 # Ignore todos os arquivos de texto
 *.txt
+
 # Ignore Byte-compiled / Optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
 # Ignora pasta da maquina virtual
 /venv/
+
 #ignora arquivos de Migração
 migrations/
+
 # Ignore 
 .vscode/
+
+# Ignore aquivos compactados .Rar
+/.rar/
+*.rar
