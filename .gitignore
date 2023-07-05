@@ -6,5 +6,7 @@ __pycache__/
 *$py.class
 # Ignora pasta da maquina virtual
 /venv/
+#ignora arquivos de Migração
+migrations/
 # Ignore 
 .vscode/
