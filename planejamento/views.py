@@ -16,3 +16,8 @@ def update_valor_categoria(request, id):
     categoria.save()
 
     return JsonResponse({'status': 'Sucesso'})
+
+def ver_planejamento(request):
+    categorias = Categoria.objects.all()
+#TODO: fazer barra com total
+    return render(request, 'ver_planejamento.html', {'categorias': categorias})

@@ -61,8 +61,8 @@ def view_extrato(request):
     if categoria_get:
         valores = valores.filter(categoria__id = categoria_get)
 
-    #TODO zerar filtros
-    #TODO filtrar por período
+#TODO: zerar filtros
+#TODO: filtrar por período
 
     return render(request, 'view_extrato.html', {'valores': valores, 'contas':contas, 'categorias':categorias})
     
