@@ -20,4 +20,12 @@ pip install weasyprint
 quem usa windows, instalar o arq: 
 'https://github.com/tschoonj/gtk-for-windows-runtime-environment-installer/releases'
 
+*  Aula 02c
+**********
 
+Definir planejamento
+
+python manage.py startapp planejamento
+
+settings.py / INSTALLED_APPS = 'planejamento',
+urls.py / path('planejamento/', include('planejamento.urls')),
