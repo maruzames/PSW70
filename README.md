@@ -46,3 +46,20 @@ Ver planejamento
 
 urls.py() / views.py() & HTML
 
+**********
+*  Aula 03
+**********
+Iniciar o Ambiente Virtual
+		venv\Scripts\Activate
+		
+>>Definir Contas
+
+python manage.py startapp contas
+
+CORE/settings.py  // ... INSTALLED_APPS = 'contas',
+CORE/urls.py      // ... path('contas/', include('contas.urls')),
+
+contas/urls.py   // ... path('definir_contas/')
+contas/views.py  // ... def definir_contas(request):
+
+contas/templates/definir_contas.html //.
